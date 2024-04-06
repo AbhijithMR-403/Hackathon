@@ -10,3 +10,7 @@ def login(request):
 
 def signup(request):
     return render(request,'user/signup.html')
+
+
+def quiz(request):
+    return render(request,'user/quiz.html')
